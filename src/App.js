@@ -36,6 +36,7 @@ const ContactCard = props => {
       <div className="user-details">
         <p>Name: {props.name}</p>
         <p>Email: {props.email} </p>
+        <p>name: "lily" </p>
         {/* line below is the same as {showAge === true ? <p>Age: 25</p> : null}*/}
         {showAge && <p>Age: {props.age} </p> }
         <p>text</p>
